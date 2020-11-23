@@ -21,6 +21,7 @@ import statistics
 
 #Iniciamos contadores en 0
 
+comienzo = input("Apreta enter para comenzar: ")
 
 def analisis (empresa):
     precio_dieciocho = 0
@@ -63,7 +64,7 @@ def analisis (empresa):
             promedio_nueve = precio_nueve / 9
             #obtenemos el promedio del cierre de las últimas 20 rondas.
 
-            print (promedio_nueve, promedio_dieciocho)
+            #print (promedio_nueve, promedio_dieciocho)
             #Realizamos conclusiones :
 
             if 0 < (promedio_nueve - promedio_dieciocho) < 1 :
@@ -98,3 +99,10 @@ for i in panel_lider:
 
 for empresa in panel_lider:
     analisis(empresa)
+
+
+while True:
+    fin = input("Escribe FIN para terminar")
+
+    if fin == "FIN":
+        break
