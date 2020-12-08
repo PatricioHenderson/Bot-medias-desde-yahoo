@@ -1,0 +1,4 @@
+('\n Hay un problema en ', 'BBAR', datetime.date(2020, 12, 8))
+('\n Hay un problema en ', 'TXAR', datetime.date(2020, 12, 8))
+('Hay un problema en ', 'BBAR', datetime.date(2020, 12, 8))
+('Hay un problema en ', 'TXAR', datetime.date(2020, 12, 8))
